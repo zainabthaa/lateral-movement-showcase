@@ -200,29 +200,6 @@ A core idea in the design: **Detect** controls are judged effective when alerts 
 | **Security patterns** | Role-based access control (RBAC), scoped &amp; time-boxed API tokens, just-in-time access, data-owner approval workflows, access logging |
 | **Frameworks** | NIST CSF, ISO/IEC 27001, NCA ECC, MITRE ATT&amp;CK |
 
-```mermaid
-mindmap
-  root((Lateral<br/>Movement Lab))
-    Infrastructure
-      Docker Compose
-      Segmented networks
-      MySQL 8
-    Detection
-      Inline IDS
-      Feature pipeline
-      Trained model
-      SOC dashboards
-    GRC
-      JIT access
-      RBAC &amp; scoped tokens
-      Framework mapping
-      Evidence snapshots
-    Governance
-      Separation of duties
-      Access logging
-      Data owners
-```
-
 ---
 
 ## Engineering highlights
