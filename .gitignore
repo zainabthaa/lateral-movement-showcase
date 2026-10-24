@@ -1,0 +1,36 @@
+# This is a documentation-only showcase repo.
+# These rules are a safety net so lab data/config can never be committed by accident.
+
+# Secrets & environment
+.env
+.env.*
+*.pem
+*.key
+*.crt
+secrets/
+credentials*
+
+# Source / lab artifacts (this repo is docs only)
+*.py
+*.php
+*.sql
+docker-compose.yml
+Dockerfile
+*/Dockerfile
+
+# Data & logs
+data/
+logs/
+*.log
+*.pcap
+*.csv
+*.db
+*.sqlite
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.idea/
+.vscode/
